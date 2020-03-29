@@ -1,0 +1,20 @@
+opam-version: "2.0"
+name: "todolist"
+version: "0.0.1"
+maintainer: "Robin Björklin <robin.bjorklin@gmail.com>"
+authors: [ "Robin Björklin <robin.bjorklin@gmail.com>" ]
+homepage: "https://github.com/rbjorklin/ocaml-todolist"
+bug-reports: "https://github.com/rbjorklin/ocaml-todolist/issues"
+
+depends: [
+  "ocaml" {>= "4.10.0"}
+  "dune" {>= "2.4.0"}
+  "lwt" {>= "5.2.0"}
+  "lwt_ppx"
+  "caqti"
+  "caqti-lwt"
+  "caqti-driver-postgresql" {>= "1.2.1"}
+]
+
+synopsis:
+  "Testing out OCaml with PostgreSQL"

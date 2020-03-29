@@ -1,0 +1,5 @@
+(executables
+ (names migrate rollback)
+  (public_names migrate rollback)
+  (libraries lib lwt.unix)
+  (preprocess (pps lwt_ppx)))
